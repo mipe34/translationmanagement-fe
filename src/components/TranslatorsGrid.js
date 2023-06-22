@@ -29,8 +29,8 @@ export default class TranslatorsGrid extends Component {
     }
 
 
-    rows = () =>  this.state.translators.map((item, index) => (
-            <tr key={index}>
+    rows = () =>  this.state.translators.map((item) => (
+            <tr key={item.id}>
                 <td>{item.name}</td>
                 <td>{item.hourlyRate}</td>
                 <td>{item.status}</td>
