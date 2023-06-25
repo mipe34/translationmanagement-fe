@@ -5,6 +5,8 @@ Contains only grid of translators. And modal to create translator account.
 
 Application was created with Node v18.15.0
 
+Backend is expected to run on http://localhost:5000
+
 # Build and run
 In root directory
 `npm install`
