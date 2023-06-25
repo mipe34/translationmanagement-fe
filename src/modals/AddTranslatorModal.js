@@ -36,19 +36,16 @@ class AddTranslatorModal extends Component {
     };
 
     addTranslator(newTranslator).then((response)=>{
-                    // Reset the form
-    this.setState({
-      name: '',
-      hourlyRate: '',
-   //   status: '',
-      creditCardNumber: '',
-      isModalOpen: false
-      
-    });
+      // Reset the form
+      this.setState({
+        name: '',
+        hourlyRate: '',
+      //   status: '',
+        creditCardNumber: '',
+        isModalOpen: false
+        });
         this.props.addTranslatorCallback();
     });
-
-
   };
 
   render() {
